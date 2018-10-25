@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <receiver android:name=".MainActivity" android:enabled="true" android:exported="true">
+        <receiver android:name=".MyBroadcastReceiver" android:enabled="true" android:exported="true">
             <intent-filter>
                 <action android:name="rikkeisoft.nguyenducdung.com.CALL_A" />
             </intent-filter>
